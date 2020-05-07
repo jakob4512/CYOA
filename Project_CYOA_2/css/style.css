@@ -1,0 +1,156 @@
+@font-face {
+    font-family: Kollektif;
+    src: url("../fonts/Kollektif-Bold.ttf");
+}
+
+@font-face {
+    font-family: Didot;
+    src: url("../fonts/Didot.ttc");
+}
+
+#start_page {
+    background-image: url("../images/blue-sky-ocean-sea.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#outcome {
+   background-image: url("../images/ocean_3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 1200px;
+}
+
+
+#outcome_2 {
+    background-image: url("../images/ocean_5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 1200px;
+}
+
+#container {
+    transform: translate(-50%, -50%);
+    width: 60%;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+
+}
+
+h1 {
+    font-family: Didot;
+    color: #fbfbfa;
+    font-size: 4em;
+}
+
+.bodyText {
+    background-color: #fbfbfa;
+    width: 100%;
+    padding: 25px;
+    font-family: Kollektif;
+    color: #434348;
+    font-size: 2em;
+}
+
+
+#button_container {
+    position: absolute;
+    width: 100%;
+}
+
+
+.btn_con {
+    background-color: #fbfbfa;
+    border: none;
+    color: #040404;
+    padding: 16px 40px;
+    text-align: center;
+    font-size: 24px;
+    margin: 44px 2px;
+    transition: 0.3s;
+    float: left;
+    border-radius: 30px;
+    font-family: Kollektif;
+    
+}
+
+.btn_con:hover {
+    background-color: #fb0a1b;
+    color: #fbfbfa;
+}
+.btn_quest {
+    background-color: #fbfbfa;
+    border: none;
+    color: #040404;
+    padding: 16px 40px;
+    text-align: center;
+    font-size: 24px;
+    margin: 44px 106px;
+    transition: 0.3s;
+    float: left;
+    border-radius: 30px;
+    font-family: Kollektif;
+    
+}
+
+.btn_quest:hover {
+    background-color: #4d4fb3;
+    color: #fbfbfa;
+}
+.btn_quest_2 {
+    background-color: #fbfbfa;
+    border: none;
+    color: #040404;
+    padding: 16px 40px;
+    text-align: center;
+    font-size: 24px;
+    margin: 44px 106px;
+    transition: 0.3s;
+    float: right;
+    border-radius: 30px;
+    font-family: Kollektif;
+    
+}
+
+.btn_quest_2:hover {
+    background-color: #4d4fb3;
+    color: #fbfbfa;
+}
+
+
+#question {
+    background-color: #539fed;
+}
+
+#dead {
+    background-color: #880909;
+}
+.btn_dead {
+    background-color: #010101;
+    border: none;
+    color: #fb0a1b;
+    padding: 16px 40px;
+    text-align: center;
+    font-size: 24px;
+    margin: 44px 2px;
+    transition: 0.3s;
+    float: right;
+    border-radius: 30px;
+    font-family: Kollektif;
+    
+}
+
+.btn_dead:hover {
+    background-color: #fb0a1b;
+    color: #fbfbfa;
+}
+
+h1#Dead_title {
+    text-align: center;
+    color: #040404;
+    font-family: Didot;
+}
+
+
